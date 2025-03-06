@@ -1,0 +1,288 @@
+{
+	"BUILD_DIR" : "/home/misal/Plocha/Projects/XEmuRun/build/xemurun_autogen",
+	"CMAKE_BINARY_DIR" : "/home/misal/Plocha/Projects/XEmuRun/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/misal/Plocha/Projects/XEmuRun/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/misal/Plocha/Projects/XEmuRun",
+	"CMAKE_EXECUTABLE" : "/home/linuxbrew/.linuxbrew/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/misal/Plocha/Projects/XEmuRun/CMakeLists.txt",
+		"/home/misal/Plocha/Projects/XEmuRun/build/CMakeFiles/3.31.6/CMakeSystem.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Platform/Linux-Initialize.cmake",
+		"/home/misal/Plocha/Projects/XEmuRun/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake",
+		"/home/misal/Plocha/Projects/XEmuRun/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeGenericSystem.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeInitializeConfigs.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Platform/Linux.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Platform/UnixPaths.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCInformation.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeLanguageInformation.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-C.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Platform/Linux-GNU-C.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Platform/Linux-GNU.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Linker/GNU-C.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Linker/GNU.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Platform/Linker/GNU.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXInformation.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeLanguageInformation.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-CXX.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Platform/Linux-GNU.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Linker/GNU-CXX.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Linker/GNU.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncpp-targets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncpp-targets-none.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncpp-namespaced-targets.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindLibArchive.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/home/linuxbrew/.linuxbrew/lib/cmake/SDL2/sdl2-config-version.cmake",
+		"/home/linuxbrew/.linuxbrew/lib/cmake/SDL2/sdl2-config.cmake",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/FeatureSummary.cmake",
+		"/home/misal/Plocha/Projects/XEmuRun/resources/resources.qrc",
+		"/home/misal/Plocha/Projects/XEmuRun/build/resources.qrc",
+		"/home/misal/Plocha/Projects/XEmuRun/build/resources.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/misal/Plocha/Projects/XEmuRun",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/misal/Plocha/Projects/XEmuRun/build/xemurun_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "xemurun_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/config/config.h",
+			"MU",
+			"6DQYUKT47J/moc_config.cpp",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/config/config_manager.h",
+			"MU",
+			"6DQYUKT47J/moc_config_manager.cpp",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/emulators/base_emulator.h",
+			"MU",
+			"KZT6CRUR72/moc_base_emulator.cpp",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/emulators/linux_emulator.h",
+			"MU",
+			"KZT6CRUR72/moc_linux_emulator.cpp",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/emulators/playstation_emulator.h",
+			"MU",
+			"KZT6CRUR72/moc_playstation_emulator.cpp",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/emulators/windows_emulator.h",
+			"MU",
+			"KZT6CRUR72/moc_windows_emulator.cpp",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/emulators/xbox_emulator.h",
+			"MU",
+			"KZT6CRUR72/moc_xbox_emulator.cpp",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/launcher/launcher.h",
+			"MU",
+			"3FUL2HDGZB/moc_launcher.cpp",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/package/package.h",
+			"MU",
+			"S6CCOCQX7P/moc_package.cpp",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/packager/packager.h",
+			"MU",
+			"IDC3DZ6PCM/moc_packager.cpp",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/utils/archive.h",
+			"MU",
+			"VSCBVMNR7M/moc_archive.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/misal/Plocha/Projects/XEmuRun/build/xemurun_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/misal/Plocha/Projects/XEmuRun/build/xemurun_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/misal/Plocha/Projects/XEmuRun/src",
+		"/usr/include/jsoncpp",
+		"/usr/include",
+		"/usr/include/c++/13",
+		"/usr/include/x86_64-linux-gnu/c++/13",
+		"/usr/include/c++/13/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/13/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/misal/Plocha/Projects/XEmuRun/build/xemurun_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/misal/Plocha/Projects/XEmuRun/build/CMakeFiles/xemurun_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/misal/Plocha/Projects/XEmuRun/build/CMakeFiles/xemurun_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/config/config.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/config/config_manager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/emulators/base_emulator.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/emulators/linux_emulator.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/emulators/playstation_emulator.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/emulators/windows_emulator.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/emulators/xbox_emulator.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/launcher/launcher.cpp",
+			"MU",
+			null
+		],
+		[ "/home/misal/Plocha/Projects/XEmuRun/src/main.cpp", "MU", null ],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/package/package.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/packager/packager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/misal/Plocha/Projects/XEmuRun/src/utils/archive.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

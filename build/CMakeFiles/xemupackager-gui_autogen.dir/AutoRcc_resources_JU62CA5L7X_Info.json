@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "/home/misal/Plocha/Projects/XEmuRun/build/xemupackager-gui_autogen",
+	"CMAKE_BINARY_DIR" : "/home/misal/Plocha/Projects/XEmuRun/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/misal/Plocha/Projects/XEmuRun/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/misal/Plocha/Projects/XEmuRun",
+	"CMAKE_SOURCE_DIR" : "/home/misal/Plocha/Projects/XEmuRun",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/misal/Plocha/Projects/XEmuRun/build/xemupackager-gui_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/misal/Plocha/Projects/XEmuRun/build/icons/windows.png",
+		"/home/misal/Plocha/Projects/XEmuRun/build/icons/game.png",
+		"/home/misal/Plocha/Projects/XEmuRun/build/icons/playstation.png",
+		"/home/misal/Plocha/Projects/XEmuRun/build/icons/xbox.png",
+		"/home/misal/Plocha/Projects/XEmuRun/build/icons/app_icon.png",
+		"/home/misal/Plocha/Projects/XEmuRun/build/icons/linux.png"
+	],
+	"LOCK_FILE" : "/home/misal/Plocha/Projects/XEmuRun/build/CMakeFiles/xemupackager-gui_autogen.dir/AutoRcc_resources_JU62CA5L7X_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "JU62CA5L7X",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/misal/Plocha/Projects/XEmuRun/build/CMakeFiles/xemupackager-gui_autogen.dir/AutoRcc_resources_JU62CA5L7X_Used.txt",
+	"SOURCE" : "/home/misal/Plocha/Projects/XEmuRun/build/resources.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

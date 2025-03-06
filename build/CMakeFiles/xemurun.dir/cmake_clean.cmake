@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/xemurun.dir/link.d"
+  "CMakeFiles/xemurun_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/xemurun_autogen.dir/ParseCache.txt"
+  "xemurun_autogen"
+  "CMakeFiles/xemurun.dir/src/config/config.cpp.o"
+  "CMakeFiles/xemurun.dir/src/config/config.cpp.o.d"
+  "CMakeFiles/xemurun.dir/src/config/config_manager.cpp.o"
+  "CMakeFiles/xemurun.dir/src/config/config_manager.cpp.o.d"
+  "CMakeFiles/xemurun.dir/src/emulators/base_emulator.cpp.o"
+  "CMakeFiles/xemurun.dir/src/emulators/base_emulator.cpp.o.d"
+  "CMakeFiles/xemurun.dir/src/emulators/linux_emulator.cpp.o"
+  "CMakeFiles/xemurun.dir/src/emulators/linux_emulator.cpp.o.d"
+  "CMakeFiles/xemurun.dir/src/emulators/playstation_emulator.cpp.o"
+  "CMakeFiles/xemurun.dir/src/emulators/playstation_emulator.cpp.o.d"
+  "CMakeFiles/xemurun.dir/src/emulators/windows_emulator.cpp.o"
+  "CMakeFiles/xemurun.dir/src/emulators/windows_emulator.cpp.o.d"
+  "CMakeFiles/xemurun.dir/src/emulators/xbox_emulator.cpp.o"
+  "CMakeFiles/xemurun.dir/src/emulators/xbox_emulator.cpp.o.d"
+  "CMakeFiles/xemurun.dir/src/launcher/launcher.cpp.o"
+  "CMakeFiles/xemurun.dir/src/launcher/launcher.cpp.o.d"
+  "CMakeFiles/xemurun.dir/src/main.cpp.o"
+  "CMakeFiles/xemurun.dir/src/main.cpp.o.d"
+  "CMakeFiles/xemurun.dir/src/package/package.cpp.o"
+  "CMakeFiles/xemurun.dir/src/package/package.cpp.o.d"
+  "CMakeFiles/xemurun.dir/src/packager/packager.cpp.o"
+  "CMakeFiles/xemurun.dir/src/packager/packager.cpp.o.d"
+  "CMakeFiles/xemurun.dir/src/utils/archive.cpp.o"
+  "CMakeFiles/xemurun.dir/src/utils/archive.cpp.o.d"
+  "CMakeFiles/xemurun.dir/xemurun_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/xemurun.dir/xemurun_autogen/mocs_compilation.cpp.o.d"
+  "xemurun"
+  "xemurun.pdb"
+  "xemurun_autogen/mocs_compilation.cpp"
+  "xemurun_autogen/timestamp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/xemurun.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

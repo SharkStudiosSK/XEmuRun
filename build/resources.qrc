@@ -1,0 +1,11 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file alias="icons/windows.png">icons/windows.png</file>
+        <file alias="icons/linux.png">icons/linux.png</file>
+        <file alias="icons/playstation.png">icons/playstation.png</file>
+        <file alias="icons/xbox.png">icons/xbox.png</file>
+        <file alias="icons/game.png">icons/game.png</file>
+        <file alias="icons/app_icon.png">icons/app_icon.png</file>
+    </qresource>
+</RCC>
