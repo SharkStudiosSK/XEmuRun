@@ -72,7 +72,6 @@ xemurun-gui: \
   /lib/i386-linux-gnu/libxml2.so.2 \
   /usr/lib/i386-linux-gnu/libxml2.so.2 \
   /lib/x86_64-linux-gnu/libxml2.so.2 \
-  /lib/x86_64-linux-gnu/libm.so.6 \
   /home/linuxbrew/.linuxbrew/opt/alsa-lib/lib/libasound.so.2 \
   /home/linuxbrew/.linuxbrew/opt/libx11/lib/libX11.so.6 \
   /home/linuxbrew/.linuxbrew/opt/libxext/lib/libXext.so.6 \
@@ -87,6 +86,8 @@ xemurun-gui: \
   /lib/i386-linux-gnu/libpng16.so.16 \
   /usr/lib/i386-linux-gnu/libpng16.so.16 \
   /lib/x86_64-linux-gnu/libpng16.so.16 \
+  /lib/i386-linux-gnu/libharfbuzz.so.0 \
+  /usr/lib/i386-linux-gnu/libharfbuzz.so.0 \
   /lib/x86_64-linux-gnu/libharfbuzz.so.0 \
   /lib/x86_64-linux-gnu/libmd4c.so.0 \
   /lib/x86_64-linux-gnu/libdouble-conversion.so.3 \
@@ -112,6 +113,8 @@ xemurun-gui: \
   /lib/i386-linux-gnu/libfreetype.so.6 \
   /usr/lib/i386-linux-gnu/libfreetype.so.6 \
   /lib/x86_64-linux-gnu/libfreetype.so.6 \
+  /lib/i386-linux-gnu/libgraphite2.so.3 \
+  /usr/lib/i386-linux-gnu/libgraphite2.so.3 \
   /lib/x86_64-linux-gnu/libgraphite2.so.3 \
   /lib/i386-linux-gnu/libicudata.so.74 \
   /usr/lib/i386-linux-gnu/libicudata.so.74 \
@@ -274,8 +277,6 @@ CMakeFiles/xemurun-gui.dir/xemurun-gui_autogen/JU62CA5L7X/qrc_resources.cpp.o:
 
 /lib/x86_64-linux-gnu/libxml2.so.2:
 
-/lib/x86_64-linux-gnu/libm.so.6:
-
 /home/linuxbrew/.linuxbrew/opt/alsa-lib/lib/libasound.so.2:
 
 /home/linuxbrew/.linuxbrew/opt/libx11/lib/libX11.so.6:
@@ -303,6 +304,10 @@ CMakeFiles/xemurun-gui.dir/xemurun-gui_autogen/JU62CA5L7X/qrc_resources.cpp.o:
 /usr/lib/i386-linux-gnu/libpng16.so.16:
 
 /lib/x86_64-linux-gnu/libpng16.so.16:
+
+/lib/i386-linux-gnu/libharfbuzz.so.0:
+
+/usr/lib/i386-linux-gnu/libharfbuzz.so.0:
 
 /lib/x86_64-linux-gnu/libharfbuzz.so.0:
 
@@ -353,6 +358,10 @@ CMakeFiles/xemurun-gui.dir/xemurun-gui_autogen/JU62CA5L7X/qrc_resources.cpp.o:
 /usr/lib/i386-linux-gnu/libfreetype.so.6:
 
 /lib/x86_64-linux-gnu/libfreetype.so.6:
+
+/lib/i386-linux-gnu/libgraphite2.so.3:
+
+/usr/lib/i386-linux-gnu/libgraphite2.so.3:
 
 /lib/x86_64-linux-gnu/libgraphite2.so.3:
 

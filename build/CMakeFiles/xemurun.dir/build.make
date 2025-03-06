@@ -296,7 +296,10 @@ xemurun: CMakeFiles/xemurun.dir/src/emulators/xbox_emulator.cpp.o
 xemurun: CMakeFiles/xemurun.dir/build.make
 xemurun: CMakeFiles/xemurun.dir/compiler_depend.ts
 xemurun: /usr/lib/x86_64-linux-gnu/libarchive.so
+xemurun: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 xemurun: /usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.9.5
+xemurun: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
+xemurun: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 xemurun: CMakeFiles/xemurun.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/misal/Plocha/Projects/XEmuRun/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable xemurun"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xemurun.dir/link.txt --verbose=$(VERBOSE)

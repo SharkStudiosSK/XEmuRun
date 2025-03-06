@@ -46,6 +46,7 @@ target_include_directories(xemurun PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_link_libraries(xemurun PRIVATE 
     JsonCpp::JsonCpp
     ${LibArchive_LIBRARIES}
+    Qt5::Widgets  # Add Qt dependency here
 )
 target_include_directories(xemurun PRIVATE ${LibArchive_INCLUDE_DIRS})
 

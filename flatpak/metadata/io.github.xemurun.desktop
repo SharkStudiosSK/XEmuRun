@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=XEmuRun
+Comment=Universal Game Emulation Platform
+Exec=xemurun-gui
+Icon=io.github.xemurun
+Terminal=false
+Type=Application
+Categories=Game;Emulator;Utility;
+Keywords=emulator;game;gaming;
+StartupWMClass=XEmuRun

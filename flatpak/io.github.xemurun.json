@@ -1,0 +1,64 @@
+{
+    "app-id": "io.github.xemurun",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "5.15-22.08",
+    "sdk": "org.kde.Sdk",
+    "command": "xemurun-gui",
+    "finish-args": [
+        "--share=ipc",
+        "--socket=x11",
+        "--socket=wayland",
+        "--socket=pulseaudio",
+        "--device=dri",
+        "--filesystem=home",
+        "--talk-name=org.freedesktop.Notifications"
+    ],
+    "modules": [
+        {
+            "name": "jsoncpp",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/open-source-parsers/jsoncpp.git",
+                    "tag": "1.9.5"
+                }
+            ]
+        },
+        {
+            "name": "SDL2",
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.libsdl.org/release/SDL2-2.0.22.tar.gz",
+                    "sha256": "fe7cbf3127882e3fc7259a75a0cb585620272c51745d3852ab9dd87960697f2e"
+                }
+            ]
+        },
+        {
+            "name": "libarchive",
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.libarchive.org/downloads/libarchive-3.6.2.tar.gz",
+                    "sha256": "9e2c1b80d5fbe59b61308fdfab6c79b5021d7ff4ff2489fb12daf0a96a83551d"
+                }
+            ]
+        },
+        {
+            "name": "xemurun",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": ".."
+                }
+            ]
+        }
+    ]
+}

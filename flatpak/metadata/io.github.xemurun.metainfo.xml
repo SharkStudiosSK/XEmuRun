@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.xemurun</id>
+  <name>XEmuRun</name>
+  <summary>Universal Game Emulation Platform</summary>
+  <description>
+    <p>
+      XEmuRun allows you to run games from various platforms (Windows, Linux, PlayStation, Xbox) 
+      using a unified interface and package format.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Universal Game Format (.XEmupkg) - Package games from any platform into a unified format</li>
+      <li>Multi-Platform Emulation - Run games from Windows, Linux, PlayStation, and Xbox</li>
+      <li>User-Friendly Interface - Simple launcher for managing and running your game library</li>
+      <li>Controller Support - Map controllers for optimal gaming experience</li>
+      <li>Configuration Management - Platform-specific and game-specific configurations</li>
+    </ul>
+  </description>
+  <url type="homepage">https://github.com/yourname/XEmuRun</url>
+  <developer_name>XEmuRun Project</developer_name>
+  <content_rating type="oars-1.1" />
+  <launchable type="desktop-id">io.github.xemurun.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main application window</caption>
+      <image>https://example.com/screenshots/xemurun-screenshot1.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="0.1.0" date="2025-03-06">
+      <description>
+        <p>Initial release of XEmuRun.</p>
+      </description>
+    </release>
+  </releases>
+</component>

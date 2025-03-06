@@ -1053,6 +1053,7 @@ CMakeFiles/xemupackager-gui.dir/src/gui/main_gui.cpp.o: /home/misal/Plocha/Proje
   /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/atomic_base.h \
+  /usr/include/c++/13/bits/atomic_futex.h \
   /usr/include/c++/13/bits/atomic_lockfree_defines.h \
   /usr/include/c++/13/bits/basic_ios.h \
   /usr/include/c++/13/bits/basic_ios.tcc \
@@ -1115,6 +1116,8 @@ CMakeFiles/xemupackager-gui.dir/src/gui/main_gui.cpp.o: /home/misal/Plocha/Proje
   /usr/include/c++/13/bits/sstream.tcc \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/std_mutex.h \
+  /usr/include/c++/13/bits/std_thread.h \
   /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
@@ -1143,6 +1146,7 @@ CMakeFiles/xemupackager-gui.dir/src/gui/main_gui.cpp.o: /home/misal/Plocha/Proje
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/uses_allocator.h \
@@ -1155,6 +1159,7 @@ CMakeFiles/xemupackager-gui.dir/src/gui/main_gui.cpp.o: /home/misal/Plocha/Proje
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/codecvt \
   /usr/include/c++/13/compare \
+  /usr/include/c++/13/condition_variable \
   /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
@@ -1176,6 +1181,7 @@ CMakeFiles/xemupackager-gui.dir/src/gui/main_gui.cpp.o: /home/misal/Plocha/Proje
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
+  /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
@@ -1188,6 +1194,7 @@ CMakeFiles/xemupackager-gui.dir/src/gui/main_gui.cpp.o: /home/misal/Plocha/Proje
   /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/memory \
+  /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numeric \
   /usr/include/c++/13/ostream \
@@ -1324,6 +1331,8 @@ CMakeFiles/xemupackager-gui.dir/src/gui/main_gui.cpp.o: /home/misal/Plocha/Proje
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
@@ -1340,7 +1349,9 @@ CMakeFiles/xemupackager-gui.dir/src/gui/main_gui.cpp.o: /home/misal/Plocha/Proje
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qelapsedtimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
@@ -1389,6 +1400,7 @@ CMakeFiles/xemupackager-gui.dir/src/gui/main_gui.cpp.o: /home/misal/Plocha/Proje
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
@@ -1771,6 +1783,7 @@ CMakeFiles/xemupackager-gui.dir/src/gui/packager_gui.cpp.o: /home/misal/Plocha/P
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileInfo \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
@@ -2481,6 +2494,7 @@ CMakeFiles/xemupackager-gui.dir/xemupackager-gui_autogen/mocs_compilation.cpp.o:
   /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/atomic_base.h \
+  /usr/include/c++/13/bits/atomic_futex.h \
   /usr/include/c++/13/bits/atomic_lockfree_defines.h \
   /usr/include/c++/13/bits/basic_ios.h \
   /usr/include/c++/13/bits/basic_ios.tcc \
@@ -2538,6 +2552,8 @@ CMakeFiles/xemupackager-gui.dir/xemupackager-gui_autogen/mocs_compilation.cpp.o:
   /usr/include/c++/13/bits/sstream.tcc \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/std_mutex.h \
+  /usr/include/c++/13/bits/std_thread.h \
   /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
@@ -2564,6 +2580,7 @@ CMakeFiles/xemupackager-gui.dir/xemupackager-gui_autogen/mocs_compilation.cpp.o:
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/uses_allocator.h \
@@ -2575,6 +2592,7 @@ CMakeFiles/xemupackager-gui.dir/xemupackager-gui_autogen/mocs_compilation.cpp.o:
   /usr/include/c++/13/chrono \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/compare \
+  /usr/include/c++/13/condition_variable \
   /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
@@ -2593,6 +2611,7 @@ CMakeFiles/xemupackager-gui.dir/xemupackager-gui_autogen/mocs_compilation.cpp.o:
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/functional \
+  /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
@@ -2604,6 +2623,7 @@ CMakeFiles/xemupackager-gui.dir/xemupackager-gui_autogen/mocs_compilation.cpp.o:
   /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/memory \
+  /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numeric \
   /usr/include/c++/13/ostream \
@@ -2730,6 +2750,8 @@ CMakeFiles/xemupackager-gui.dir/xemupackager-gui_autogen/mocs_compilation.cpp.o:
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
@@ -2744,7 +2766,9 @@ CMakeFiles/xemupackager-gui.dir/xemupackager-gui_autogen/mocs_compilation.cpp.o:
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qelapsedtimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h \
@@ -2792,6 +2816,7 @@ CMakeFiles/xemupackager-gui.dir/xemupackager-gui_autogen/mocs_compilation.cpp.o:
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
@@ -3152,16 +3177,6 @@ CMakeFiles/xemupackager-gui.dir/src/gui/packager_gui.cpp.o:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir:
 
-/usr/include/c++/13/mutex:
-
-/usr/include/c++/13/bits/unique_lock.h:
-
-/lib/x86_64-linux-gnu/libbrotlidec.so.1:
-
-/usr/include/c++/13/bits/std_thread.h:
-
-/usr/include/c++/13/bits/atomic_futex.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
@@ -3178,13 +3193,23 @@ CMakeFiles/xemupackager-gui.dir/src/gui/packager_gui.cpp.o:
 
 /usr/include/c++/13/stdlib.h:
 
+/usr/include/c++/13/mutex:
+
 /usr/include/c++/13/bits/unordered_map.h:
+
+/usr/include/c++/13/bits/unique_lock.h:
+
+/lib/x86_64-linux-gnu/libbrotlidec.so.1:
+
+/usr/include/c++/13/bits/std_thread.h:
 
 /usr/include/c++/13/bits/hashtable_policy.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h:
 
 /usr/include/c++/13/bits/hashtable.h:
+
+/usr/include/c++/13/bits/atomic_futex.h:
 
 /usr/include/c++/13/ratio:
 

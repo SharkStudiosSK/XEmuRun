@@ -2,6 +2,7 @@
 
 #include "base_emulator.h"
 #include "../package/package.h"
+#include <string>
 
 namespace XEmuRun {
 
@@ -12,11 +13,18 @@ public:
     
     bool initialize() override;
     int launch(const Package& package) override;
+    Config getDefaultConfig() const override;
     
 private:
-    bool setupEmulator();
+    bool setupOriginalXboxEmulator();
+    bool setupXbox360Emulator();
+    bool setupXboxOneEmulator();
+    bool setupXboxSeriesEmulator();
+    std::string findEmulatorPath(const std::string& defaultName);
+    
     std::string m_emulatorBinary;
     std::string m_xboxVersion;
+    std::string m_biosPath;
 };
 
 } // namespace XEmuRun
