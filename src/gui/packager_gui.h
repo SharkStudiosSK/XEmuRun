@@ -8,10 +8,15 @@
 #include <QProgressBar>
 #include <QLabel>
 #include <QFileDialog>
+#include <QThread>
+#include <QObject>
 #include <memory>
 #include "../packager/packager.h"
 
 namespace XEmuRun {
+
+// Forward declaration
+class PackageWorker;
 
 class PackagerGui : public QMainWindow {
     Q_OBJECT
@@ -30,6 +35,7 @@ private slots:
     void autoDetect();
     void updateCreateButtonState();
     void platformChanged(const QString& platform);
+    void handlePackagingFinished(bool success);
     
 private:
     void setupUi();
@@ -58,6 +64,25 @@ private:
     
     // Packager
     std::unique_ptr<Packager> m_packager;
+    QThread* m_workerThread;
+    PackageWorker* m_worker;
+};
+
+// Package Worker - must be outside the class to use signals/slots
+class PackageWorker : public QObject {
+    Q_OBJECT
+    
+public:
+    explicit PackageWorker(Packager* packager);
+    
+public slots:
+    void process();
+    
+signals:
+    void finished(bool success);
+    
+private:
+    Packager* m_packager;
 };
 
 } // namespace XEmuRun

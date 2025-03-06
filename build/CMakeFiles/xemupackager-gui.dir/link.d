@@ -83,6 +83,7 @@ xemupackager-gui: \
   /lib/i386-linux-gnu/libglib-2.0.so.0 \
   /usr/lib/i386-linux-gnu/libglib-2.0.so.0 \
   /lib/x86_64-linux-gnu/libglib-2.0.so.0 \
+  /lib64/ld-linux-x86-64.so.2 \
   /lib/i386-linux-gnu/libGLdispatch.so.0 \
   /usr/lib/i386-linux-gnu/libGLdispatch.so.0 \
   /lib/x86_64-linux-gnu/libGLdispatch.so.0 \
@@ -291,6 +292,8 @@ CMakeFiles/xemupackager-gui.dir/xemupackager-gui_autogen/JU62CA5L7X/qrc_resource
 /usr/lib/i386-linux-gnu/libglib-2.0.so.0:
 
 /lib/x86_64-linux-gnu/libglib-2.0.so.0:
+
+/lib64/ld-linux-x86-64.so.2:
 
 /lib/i386-linux-gnu/libGLdispatch.so.0:
 

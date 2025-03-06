@@ -192,6 +192,7 @@ xemupackager-gui_autogen/timestamp: /home/linuxbrew/.linuxbrew/bin/cmake \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/functional \
+  /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
@@ -336,6 +337,8 @@ xemupackager-gui_autogen/timestamp: /home/linuxbrew/.linuxbrew/bin/cmake \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
@@ -350,7 +353,9 @@ xemupackager-gui_autogen/timestamp: /home/linuxbrew/.linuxbrew/bin/cmake \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qelapsedtimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h \
@@ -398,6 +403,7 @@ xemupackager-gui_autogen/timestamp: /home/linuxbrew/.linuxbrew/bin/cmake \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
@@ -3144,17 +3150,9 @@ CMakeFiles/xemupackager-gui.dir/src/gui/packager_gui.cpp.o:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qelapsedtimer.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QThread:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir:
 
 /usr/include/c++/13/mutex:
-
-/usr/include/c++/13/future:
 
 /usr/include/c++/13/bits/unique_lock.h:
 
@@ -3208,7 +3206,15 @@ CMakeFiles/xemupackager-gui.dir/src/gui/packager_gui.cpp.o:
 
 /usr/include/c++/13/bits/chrono.h:
 
-/usr/include/c++/13/bits/requires_hosted.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+/lib/x86_64-linux-gnu/libdouble-conversion.so.3:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
+
+/usr/include/jsoncpp/json/writer.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
@@ -3237,6 +3243,8 @@ CMakeFiles/xemupackager-gui.dir/src/gui/packager_gui.cpp.o:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
+
+/usr/include/c++/13/future:
 
 /usr/include/c++/13/bits/atomic_wait.h:
 
@@ -3568,6 +3576,10 @@ CMakeFiles/3.31.6/CMakeCCompiler.cmake:
 
 /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeParseArguments.cmake:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
 /usr/lib/i386-linux-gnu/libz.so.1:
 
 /usr/include/pthread.h:
@@ -3698,6 +3710,8 @@ CMakeFiles/xemupackager-gui.dir/src/utils/archive.cpp.o:
 
 /home/misal/Plocha/Projects/XEmuRun/src/config/config.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QThread:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h:
 
 /lib/x86_64-linux-gnu/libbz2.so.1.0:
@@ -3782,10 +3796,6 @@ resources.qrc:
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h:
-
-/usr/include/c++/13/bits/ranges_cmp.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h:
 
 /home/misal/Plocha/Projects/XEmuRun/src/packager/packager.cpp:
@@ -3860,6 +3870,8 @@ xemupackager-gui_autogen/MXUWEOXILK/moc_packager_gui.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton:
 
+/usr/include/c++/13/bits/requires_hosted.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h:
@@ -3899,8 +3911,6 @@ xemupackager-gui_autogen/MXUWEOXILK/moc_packager_gui.cpp:
 /usr/include/c++/13/bits/vector.tcc:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h:
-
-/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-CXX.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h:
 
@@ -4108,6 +4118,14 @@ xemupackager-gui_autogen/MXUWEOXILK/moc_packager_gui.cpp:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
+/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-CXX.cmake:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:
+
+/usr/include/assert.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h:
@@ -4122,7 +4140,11 @@ xemupackager-gui_autogen/MXUWEOXILK/moc_packager_gui.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qelapsedtimer.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h:
 
@@ -4198,10 +4220,6 @@ xemupackager-gui_autogen/MXUWEOXILK/moc_packager_gui.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h:
 
-/usr/include/assert.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h:
-
 /lib/x86_64-linux-gnu/libbrotlicommon.so.1:
 
 /usr/include/c++/13/cwchar:
@@ -4219,6 +4237,10 @@ xemupackager-gui_autogen/MXUWEOXILK/moc_packager_gui.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake:
+
+/usr/include/c++/13/bits/ranges_cmp.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h:
 
 /lib/x86_64-linux-gnu/libzstd.so.1:
 
@@ -4269,6 +4291,10 @@ xemupackager-gui_autogen/MXUWEOXILK/moc_packager_gui.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h:
+
+/usr/include/jsoncpp/json/version.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h:
 
@@ -4421,21 +4447,3 @@ xemupackager-gui_autogen/MXUWEOXILK/moc_packager_gui.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h:
 
 /usr/include/jsoncpp/json/reader.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
-
-/usr/include/jsoncpp/json/version.h:
-
-/usr/include/jsoncpp/json/writer.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
-
-/lib/x86_64-linux-gnu/libdouble-conversion.so.3:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:

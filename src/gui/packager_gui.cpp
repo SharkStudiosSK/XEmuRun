@@ -226,30 +226,20 @@ void PackagerGui::createPackage() {
     m_progressBar->setValue(0);
     setStatusMessage("Creating package...");
     
-    // Use a separate thread for packaging to keep the UI responsive
-    QThread* thread = QThread::create([this]() {
-        bool success = m_packager->createPackage();
-        return success;
-    });
+    // Create worker thread
+    m_workerThread = new QThread(this);
+    m_worker = new PackageWorker(m_packager.get());
+    m_worker->moveToThread(m_workerThread);
     
-    connect(thread, &QThread::finished, this, [this, thread]() {
-        // Re-enable UI
-        m_createPackageButton->setEnabled(true);
-        m_progressBar->setValue(100);
-        
-        bool success = thread->property("success").toBool();
-        if (success) {
-            setStatusMessage("Package created successfully!", false);
-            QMessageBox::information(this, "Success", "Package created successfully!");
-        } else {
-            setStatusMessage("Failed to create package", true);
-            QMessageBox::critical(this, "Error", "Failed to create package");
-        }
-        
-        thread->deleteLater();
-    });
+    // Connect signals/slots
+    connect(m_workerThread, &QThread::started, m_worker, &PackageWorker::process);
+    connect(m_worker, &PackageWorker::finished, this, &PackagerGui::handlePackagingFinished);
+    connect(m_worker, &PackageWorker::finished, m_workerThread, &QThread::quit);
+    connect(m_workerThread, &QThread::finished, m_worker, &QObject::deleteLater);
+    connect(m_workerThread, &QThread::finished, m_workerThread, &QObject::deleteLater);
     
-    thread->start();
+    // Start the thread
+    m_workerThread->start();
 }
 
 void PackagerGui::autoDetect() {
@@ -375,6 +365,29 @@ void PackagerGui::setStatusMessage(const QString& message, bool isError) {
         m_statusLabel->setStyleSheet("color: red;");
     } else {
         m_statusLabel->setStyleSheet("");
+    }
+}
+
+// Add the PackageWorker implementation
+PackageWorker::PackageWorker(Packager* packager) : m_packager(packager) {}
+
+void PackageWorker::process() {
+    bool result = m_packager->createPackage();
+    emit finished(result);
+}
+
+// Add handler for packaging finished signal
+void PackagerGui::handlePackagingFinished(bool success) {
+    // Re-enable UI
+    m_createPackageButton->setEnabled(true);
+    m_progressBar->setValue(100);
+    
+    if (success) {
+        setStatusMessage("Package created successfully!", false);
+        QMessageBox::information(this, "Success", "Package created successfully!");
+    } else {
+        setStatusMessage("Failed to create package", true);
+        QMessageBox::critical(this, "Error", "Failed to create package");
     }
 }
 

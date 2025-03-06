@@ -189,6 +189,7 @@ xemupackager-gui_autogen/timestamp: \
 	/usr/include/c++/13/ext/string_conversions.h \
 	/usr/include/c++/13/ext/type_traits.h \
 	/usr/include/c++/13/functional \
+	/usr/include/c++/13/future \
 	/usr/include/c++/13/initializer_list \
 	/usr/include/c++/13/iomanip \
 	/usr/include/c++/13/ios \
@@ -333,6 +334,8 @@ xemupackager-gui_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+	/usr/include/x86_64-linux-gnu/qt5/QtCore/QThread \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
@@ -347,7 +350,9 @@ xemupackager-gui_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtCore/qelapsedtimer.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h \
@@ -395,6 +400,7 @@ xemupackager-gui_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \

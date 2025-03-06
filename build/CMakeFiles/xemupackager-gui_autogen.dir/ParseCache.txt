@@ -144,6 +144,7 @@
  mdp:/usr/include/c++/13/ext/string_conversions.h
  mdp:/usr/include/c++/13/ext/type_traits.h
  mdp:/usr/include/c++/13/functional
+ mdp:/usr/include/c++/13/future
  mdp:/usr/include/c++/13/initializer_list
  mdp:/usr/include/c++/13/iomanip
  mdp:/usr/include/c++/13/ios
@@ -288,6 +289,8 @@
  mdp:/usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h
  mdp:/usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  mdp:/usr/include/x86_64-linux-gnu/gnu/stubs.h
+ mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+ mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -302,7 +305,9 @@
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
+ mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
+ mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qelapsedtimer.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
@@ -350,6 +355,7 @@
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
+ mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
  mdp:/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
