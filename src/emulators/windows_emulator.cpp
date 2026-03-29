@@ -6,6 +6,11 @@
 #include <vector>
 #include <algorithm>
 #include <sstream>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <cerrno>
+#include <cstring>
 
 namespace fs = std::filesystem;
 
@@ -23,7 +28,11 @@ bool WindowsEmulator::commandAvailable(const std::string& cmd) {
     std::string dir;
     while (std::getline(stream, dir, ':')) {
         if (dir.empty()) continue;
-        if (fs::exists(dir + "/" + cmd)) return true;
+        std::string fullPath = dir + "/" + cmd;
+        // Must be a regular file and executable by the current process
+        if (fs::is_regular_file(fullPath) && access(fullPath.c_str(), X_OK) == 0) {
+            return true;
+        }
     }
     return false;
 }
@@ -247,13 +256,38 @@ int WindowsEmulator::launch(const Package& package) {
     }
     setenv("GAMEID", gameId.c_str(), 1);
 
-    // Launch via umu-run which manages Proton initialization outside Steam
-    std::string command = "umu-run \"" + executablePath + "\"";
-
+    // Launch via umu-run which manages Proton initialization outside Steam.
+    // Use fork+execvp to pass the executable path directly as a separate argument,
+    // avoiding any shell involvement and the associated shell-injection risk.
     std::cout << "Launching Windows application with Proton-GE via umu-launcher: " << executablePath << std::endl;
-    std::cout << "Command: " << command << std::endl;
 
-    return std::system(command.c_str());
+    pid_t pid = fork();
+    if (pid < 0) {
+        std::cerr << "Error: failed to fork process: " << strerror(errno) << std::endl;
+        return 1;
+    }
+
+    if (pid == 0) {
+        // Child: replace process image with umu-run
+        char* const argv[] = {
+            const_cast<char*>("umu-run"),
+            const_cast<char*>(executablePath.c_str()),
+            nullptr
+        };
+        execvp("umu-run", argv);
+        // execvp only returns on failure
+        std::cerr << "Error: failed to execute umu-run: " << strerror(errno) << std::endl;
+        _exit(1);
+    }
+
+    // Parent: wait for the child to finish
+    int status = 0;
+    if (waitpid(pid, &status, 0) == -1) {
+        std::cerr << "Error: waitpid failed: " << strerror(errno) << std::endl;
+        return 1;
+    }
+
+    return WIFEXITED(status) ? WEXITSTATUS(status) : 1;
 }
 
 // ---------------------------------------------------------------------------

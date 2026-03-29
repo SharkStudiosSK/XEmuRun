@@ -101,6 +101,11 @@ Each platform has its own configuration options:
 > and [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) to be installed.
 > See [INSTALL.md](INSTALL.md) for setup instructions.
 
+> **Display settings**: The `fullscreen`, `resolution_width`, and `resolution_height` config options
+> (and the corresponding `--config` packager flags) are **not applied** for Windows titles launched
+> via Proton-GE. Display mode and resolution for Windows games are controlled by the game itself
+> or via Proton/DXVK environment variables.
+
 #### PlayStation
 - BIOS path
 - Rendering resolution

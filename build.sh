@@ -38,10 +38,17 @@ install_dependencies_debian() {
         imagemagick
         
     echo -e "${GREEN}Dependencies installed successfully!${NC}"
-    echo -e "${YELLOW}Note: Windows game support requires Proton-GE.${NC}"
-    echo "Download the latest release from:"
-    echo "  https://github.com/GloriousEggroll/proton-ge-custom/releases"
-    echo "and extract it to: ~/.local/share/Steam/compatibilitytools.d/"
+    echo -e "${YELLOW}Note: Windows game support requires umu-launcher and Proton-GE.${NC}"
+    echo ""
+    echo "1. Install umu-launcher (required to run Proton-GE standalone):"
+    echo "     pipx install umu-launcher"
+    echo "   Ensure ~/.local/bin is on your PATH:"
+    echo "     export PATH=\"\$HOME/.local/bin:\$PATH\""
+    echo "   See: https://github.com/Open-Wine-Components/umu-launcher"
+    echo ""
+    echo "2. Download Proton-GE from:"
+    echo "     https://github.com/GloriousEggroll/proton-ge-custom/releases"
+    echo "   and extract it to: ~/.local/share/Steam/compatibilitytools.d/"
 }
 
 # Function to detect the Linux distribution
