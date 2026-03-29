@@ -91,11 +91,20 @@ Global settings can be configured in the "Settings" tab of the XEmuRun GUI:
 
 Each platform has its own configuration options:
 
-#### Windows (Wine)
-- Wine prefix location
+#### Windows (Proton-GE)
+- Proton-GE installation path (auto-detected or set via `proton_path`)
+- Proton compatibility data path — per-title, under `~/.local/share/XEmuRun/compatdata/<game>` by default (`proton_data_path` to override)
+- umu-launcher game ID (`umu_game_id`, defaults to `umu-<game_name>`)
 - Windows version (7, 8, 10)
-- DXVK support
-- Resolution and fullscreen mode
+
+> **Note**: Windows games require both [umu-launcher](https://github.com/Open-Wine-Components/umu-launcher)
+> and [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom/releases) to be installed.
+> See [INSTALL.md](INSTALL.md) for setup instructions.
+
+> **Display settings**: The `fullscreen`, `resolution_width`, and `resolution_height` config options
+> (and the corresponding `--config` packager flags) are **not applied** for Windows titles launched
+> via Proton-GE. Display mode and resolution for Windows games are controlled by the game itself
+> or via Proton/DXVK environment variables.
 
 #### PlayStation
 - BIOS path

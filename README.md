@@ -16,7 +16,7 @@ XEmuRun is a universal game emulation platform that allows users to run games fr
 
 XEmuRun can run games from:
 
-- Windows (via Wine)
+- Windows (via Proton-GE)
 - Linux (native)
 - PlayStation 4 & 5 (via emulation)
 - Xbox & Xbox Series (via emulation)

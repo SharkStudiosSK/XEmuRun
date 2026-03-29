@@ -18,7 +18,16 @@ public:
     Config getDefaultConfig() const override;
     
 private:
-    bool setupWine();
+    std::string m_protonPath;
+    
+    std::string findProtonPath();
+    bool setupProton();
+
+    // Returns true if the named command exists somewhere on PATH
+    static bool commandAvailable(const std::string& cmd);
+
+    // Replace characters that are unsafe in filesystem paths or environment values
+    static std::string sanitizeId(const std::string& input);
 };
 
 } // namespace XEmuRun

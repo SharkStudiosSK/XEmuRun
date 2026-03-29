@@ -74,18 +74,36 @@ sudo pacman -S base-devel cmake qt5-base sdl2 libarchive jsoncpp
 
 ### Windows Games
 
-To run Windows games, Wine must be installed:
+Running Windows games requires two components:
 
+#### 1. umu-launcher (required)
+
+`umu-launcher` provides the Steam-compatible runtime layer that Proton needs to
+operate outside of Steam. Without it, Proton-GE will not start.
+
+Install via pipx (recommended):
 ```bash
-# Ubuntu/Debian
-sudo apt install wine
-
-# Fedora
-sudo dnf install wine
-
-# Arch Linux
-sudo pacman -S wine
+pipx install umu-launcher
 ```
+
+Or follow the instructions at: https://github.com/Open-Wine-Components/umu-launcher
+
+#### 2. Proton-GE
+
+1. Download the latest release from:
+   ```
+   https://github.com/GloriousEggroll/proton-ge-custom/releases
+   ```
+
+2. Extract the archive to the Proton compatibility tools directory:
+   ```bash
+   mkdir -p ~/.local/share/Steam/compatibilitytools.d
+   tar -xf GE-Proton*.tar.gz -C ~/.local/share/Steam/compatibilitytools.d/
+   ```
+
+XEmuRun will automatically detect the installed Proton-GE version and launch it
+via `umu-run`. You can also specify a custom Proton-GE path via the `proton_path`
+configuration option.
 
 ### PlayStation Emulation
 
@@ -109,5 +127,5 @@ If you experience build errors, check that your compiler supports C++17 and that
 
 #### Runtime Errors
 
-- **Windows Games**: Ensure Wine is properly installed and configured.
+- **Windows Games**: Ensure both `umu-launcher` (`umu-run`) and Proton-GE are installed. Proton-GE must be in `~/.local/share/Steam/compatibilitytools.d/` or the path set via the `proton_path` configuration option. See [Windows Games](#windows-games) above for full instructions.
 - **Controller Issues**: Check that SDL2 is properly installed and your controller is recognized by the system.
