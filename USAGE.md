@@ -91,11 +91,10 @@ Global settings can be configured in the "Settings" tab of the XEmuRun GUI:
 
 Each platform has its own configuration options:
 
-#### Windows (Wine)
-- Wine prefix location
+#### Windows (Proton-GE)
+- Proton-GE installation path (auto-detected or set via `proton_path`)
+- Proton compatibility data path (`proton_data_path`)
 - Windows version (7, 8, 10)
-- DXVK support
-- Resolution and fullscreen mode
 
 #### PlayStation
 - BIOS path

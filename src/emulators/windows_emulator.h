@@ -18,7 +18,10 @@ public:
     Config getDefaultConfig() const override;
     
 private:
-    bool setupWine();
+    std::string m_protonPath;
+    
+    std::string findProtonPath();
+    bool setupProton();
 };
 
 } // namespace XEmuRun

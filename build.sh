@@ -35,9 +35,13 @@ install_dependencies_debian() {
     sudo apt install -y build-essential cmake \
         qtbase5-dev libqt5widgets5 \
         libsdl2-dev libarchive-dev libjsoncpp-dev \
-        wine-stable imagemagick
+        imagemagick
         
     echo -e "${GREEN}Dependencies installed successfully!${NC}"
+    echo -e "${YELLOW}Note: Windows game support requires Proton-GE.${NC}"
+    echo "Download the latest release from:"
+    echo "  https://github.com/GloriousEggroll/proton-ge-custom/releases"
+    echo "and extract it to: ~/.local/share/Steam/compatibilitytools.d/"
 }
 
 # Function to detect the Linux distribution
