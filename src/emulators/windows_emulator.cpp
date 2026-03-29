@@ -45,16 +45,21 @@ std::string WindowsEmulator::findProtonPath() {
     for (const auto& dir : searchDirs) {
         if (!fs::exists(dir)) continue;
 
-        for (const auto& entry : fs::directory_iterator(dir)) {
-            if (!entry.is_directory()) continue;
-            std::string name = entry.path().filename().string();
-            // Look for GE-Proton directories (e.g. GE-Proton9-20)
-            if (name.find("GE-Proton") == 0 || name.find("Proton-") == 0) {
-                std::string protonBin = entry.path().string() + "/proton";
-                if (fs::exists(protonBin)) {
-                    foundPaths.push_back(entry.path().string());
+        try {
+            for (const auto& entry : fs::directory_iterator(dir)) {
+                if (!entry.is_directory()) continue;
+                std::string name = entry.path().filename().string();
+                // Look for GE-Proton directories (e.g. GE-Proton9-20)
+                if (name.find("GE-Proton") == 0 || name.find("Proton-") == 0) {
+                    std::string protonBin = entry.path().string() + "/proton";
+                    if (fs::exists(protonBin)) {
+                        foundPaths.push_back(entry.path().string());
+                    }
                 }
             }
+        } catch (const fs::filesystem_error& e) {
+            std::cerr << "Warning: failed to scan directory '" << dir
+                      << "': " << e.what() << std::endl;
         }
     }
 
