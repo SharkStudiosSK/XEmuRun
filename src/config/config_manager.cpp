@@ -174,9 +174,9 @@ void ConfigManager::createDefaultEmulatorConfig(const std::string& platform) {
     
     // Platform-specific default settings
     if (platform == "windows") {
-        config.setString("wine_prefix", "");
-        config.setString("wine_version", "");
-        config.setBool("enable_dxvk", true);
+        config.setString("proton_path", "");
+        config.setString("proton_data_path", "");
+        config.setString("umu_game_id", "");
         config.setInt("windows_version", 10); // Target Windows version (7, 8, 10)
     } 
     else if (platform == "playstation4" || platform == "playstation5") {
